@@ -24,7 +24,8 @@ module.exports = {
     rules: [
       { test: /\.css$/, use: [
         { loader: 'style-loader' },
-        { loader: 'css-loader' }
+        { loader: 'css-loader', options: { modules: true } },
+        { loader: 'less-loader' }
       ], include: defaultInclude },
       { test: /\.less$/, use: [
         { loader: 'style-loader' },

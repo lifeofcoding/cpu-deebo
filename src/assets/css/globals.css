@@ -1,6 +1,5 @@
-.box {
-  overflow: hidden;
-  box-shadow: 0 0 30px rgba(0,0,0,.1);
-  border: 1px solid #bebebe;
-  border-radius: 6px;
+@color-cod-gray: rgb(29, 27, 27);
+
+.window {
+    background-color: @color-cod-gray;
 }
